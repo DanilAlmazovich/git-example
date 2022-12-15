@@ -43,6 +43,11 @@ export default {
       name: 'Nikita',
       type: 'student',
       color: 'orange'
+    }),
+    this.people.push({
+      name: 'AbuBandit',
+      type: 'student',
+      color: 'yellow'
     })
     this.people.push({
       name: 'Kalybek',
@@ -125,7 +130,6 @@ export default {
   .list .bg-mediumblue{
     background: mediumblue;
     color: gold;
-    font-size: 40px;
   }
   .list .bg-mediumaquamarine {
     background: mediumaquamarine;
@@ -138,5 +142,8 @@ export default {
   }
   .list .bg-blue {
     background: #020c13;
+  }
+  .list .bg-yellow {
+    background: rgb(242, 255, 0);
   }
 </style>
