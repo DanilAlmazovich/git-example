@@ -63,7 +63,7 @@ export default {
     this.people.push({
       name: 'bekzat',
       type: 'student',
-      color: 'palevioletred'
+      color: 'green'
     })
     this.people.push({
       name: 'Ken',
@@ -131,7 +131,7 @@ export default {
     background: mediumaquamarine;
   }
   .list .bg-mediumaquamarine {
-    background: palevioletred;
+    background: green;
   }
   .list .bg-black {
     background: #0d69b0;
