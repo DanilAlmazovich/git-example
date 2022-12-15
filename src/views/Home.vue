@@ -22,13 +22,23 @@ export default {
       name: 'Danil',
       type: 'mentor',
       color: 'purple'
+    }),
+    this.people.push({
+      name: 'Islam',
+      type: 'Student',
+      color: 'yellow'
+      
     })
     this.people.push({
       name: 'John',
       type: 'mentor',
       color: 'red'
+    }),
+    this.people.push({
+      name:'Iman',
+      type:'student',
+      color: 'papayawhip'
     })
-    //здесь будете пушить свои данные
     this.people.push({
       name: 'Nikita',
       type: 'student',
@@ -39,6 +49,18 @@ export default {
       type: 'student',
       color: 'you-best'
     })
+    this.people.push({
+      name: 'Bekjan',
+      type: 'student scientist',
+      color: 'mediumblue'
+    })
+    this.people.push({
+      name: 'Anton',
+      type: 'student',
+      color: 'mediumaquamarine'
+    })
+    
+    //здесь будете пушить свои данные
   }
 }
 </script>
@@ -66,13 +88,32 @@ export default {
   .list .bg-purple {
     background: #810281;
   }
+  .list .bg-yellow {
+    background: #ffa200;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+  }
+  
   .list .bg-red {
     background: #fd0d0d;
   }
+  .list .bg-papayawhip {
+    background: papayawhip;
+    color: black;
+  } 
   .list .bg-orange {
     background: orange;
   }
   .list .bg-you-best {
     background: rgb(53, 45, 31);
   }
+  .list .bg-mediumblue{
+    background: mediumblue;
+    color: gold;
+    font-size: 40px;
+  }
+  .list .bg-mediumaquamarine {
+    background: mediumaquamarine;
+  }
 </style>
+  
