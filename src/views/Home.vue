@@ -134,9 +134,6 @@ export default {
   .list .bg-mediumaquamarine {
     background: mediumaquamarine;
   }
-  .list .bg-mediumaquamarine {
-    background: palevioletred;
-  }
   .list .bg-black {
     background: #0d69b0;
   }
