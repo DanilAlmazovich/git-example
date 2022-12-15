@@ -80,6 +80,8 @@ export default {
   }
   .list .bg-yellow {
     background: #ffa200;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
   }
   
   .list .bg-red {
