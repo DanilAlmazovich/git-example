@@ -38,6 +38,13 @@ export default {
       type: 'student scientist',
       color: 'mediumblue'
     })
+    this.people.push({
+      name: 'Anton',
+      type: 'student',
+      color: 'mediumaquamarine'
+    })
+    
+    //здесь будете пушить свои данные
   }
 }
 </script>
@@ -76,5 +83,7 @@ export default {
     color: gold;
     font-size: 40px;
   }
+  .list .bg-mediumaquamarine {
+    background: mediumaquamarine;
+  }
 </style>
-
