@@ -70,6 +70,11 @@ export default {
       type: 'student',
       color: 'black'
     })
+    this.people.push({
+      name: 'Mansur',
+      type: 'student',
+      color: 'blue'
+    })
     //здесь будете пушить свои данные
   }
 }
@@ -130,5 +135,8 @@ export default {
   }
   .list .bg-black {
     background: #0d69b0;
+  }
+  .list .bg-blue {
+    background: #020c13;
   }
 </style>
