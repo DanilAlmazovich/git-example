@@ -28,6 +28,11 @@ export default {
       type: 'mentor',
       color: 'red'
     })
+    this.people.push({
+      name: 'Ken',
+      type: 'student',
+      color: 'purbple'
+    })
     //здесь будете пушить свои данные
   }
 }
