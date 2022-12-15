@@ -60,6 +60,11 @@ export default {
       color: 'mediumaquamarine'
     })
     
+    this.people.push({
+      name: 'bekzat',
+      type: 'student',
+      color: 'palevioletred'
+    })
     //здесь будете пушить свои данные
   }
 }
@@ -114,6 +119,9 @@ export default {
   }
   .list .bg-mediumaquamarine {
     background: mediumaquamarine;
+  }
+  .list .bg-mediumaquamarine {
+    background: palevioletred;
   }
 </style>
   
