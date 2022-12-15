@@ -5,6 +5,8 @@
           <span class="name">{{ person.name }}</span>
           <span>-</span>
           <span class="type">{{ person.type }}</span>
+          <span>-</span> 
+          <span class="type">{{ person.email }}</span>
         </div>
       </div>
   </div>
@@ -68,7 +70,8 @@ export default {
     this.people.push({
       name: 'bekzat',
       type: 'student',
-      color: 'green'
+      color: 'grey',
+      email: 'tomoisempay@gmail.com'
     })
     this.people.push({
       name: 'Ken',
@@ -134,8 +137,8 @@ export default {
   .list .bg-mediumaquamarine {
     background: mediumaquamarine;
   }
-  .list .bg-mediumaquamarine {
-    background: green;
+  .list .bg-grey {
+    background: gray;
   }
   .list .bg-black {
     background: #0d69b0;
