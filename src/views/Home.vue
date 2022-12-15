@@ -22,6 +22,12 @@ export default {
       name: 'Danil',
       type: 'mentor',
       color: 'purple'
+    }),
+    this.people.push({
+      name: 'Islam',
+      type: 'Student',
+      color: 'yellow'
+      
     })
     //здесь будете пушить свои данные
   }
@@ -51,4 +57,8 @@ export default {
   .list .bg-purple {
     background: #810281;
   }
+  .list .bg-yellow {
+    background: #ffa200;
+  }
+  
 </style>
