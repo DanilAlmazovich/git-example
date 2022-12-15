@@ -130,7 +130,6 @@ export default {
   .list .bg-mediumblue{
     background: mediumblue;
     color: gold;
-    font-size: 40px;
   }
   .list .bg-mediumaquamarine {
     background: mediumaquamarine;
