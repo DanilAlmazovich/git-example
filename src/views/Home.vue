@@ -27,6 +27,11 @@ export default {
       name: 'John',
       type: 'mentor',
       color: 'red'
+    }),
+    this.people.push({
+      name:'Iman',
+      type:'student',
+      color: 'papayawhip'
     })
     //здесь будете пушить свои данные
   }
@@ -58,5 +63,9 @@ export default {
   }
   .list .bg-red {
     background: #fd0d0d;
+  }
+  .list .bg-papayawhip {
+    background: papayawhip;
+    color: black;
   }
 </style>
