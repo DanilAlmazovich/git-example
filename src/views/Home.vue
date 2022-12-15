@@ -58,7 +58,7 @@ export default {
     this.people.push({
       name: 'bekzat',
       type: 'student',
-      color: 'palevioletred'
+      color: 'green'
     })
     //здесь будете пушить свои данные
   }
@@ -113,6 +113,6 @@ export default {
     background: mediumaquamarine;
   }
   .list .bg-mediumaquamarine {
-    background: palevioletred;
+    background: green;
   }
 </style>
