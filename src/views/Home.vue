@@ -83,6 +83,10 @@ export default {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: bold;
   }
+  .list .bg-yellow:hover {
+   background-color: gray;
+   color: white;
+  }
   
   .list .bg-red {
     background: #fd0d0d;
