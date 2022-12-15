@@ -65,6 +65,11 @@ export default {
       type: 'student',
       color: 'palevioletred'
     })
+    this.people.push({
+      name: 'Ken',
+      type: 'student',
+      color: 'black'
+    })
     //здесь будете пушить свои данные
   }
 }
@@ -123,5 +128,7 @@ export default {
   .list .bg-mediumaquamarine {
     background: palevioletred;
   }
+  .list .bg-black {
+    background: #0d69b0;
+  }
 </style>
-  
