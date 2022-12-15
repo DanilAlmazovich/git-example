@@ -43,6 +43,11 @@ export default {
       name: 'Nikita',
       type: 'student',
       color: 'orange'
+    }),
+    this.people.push({
+      name: 'AbuBandit',
+      type: 'student',
+      color: 'yellow'
     })
     this.people.push({
       name: 'Kalybek',
@@ -138,5 +143,8 @@ export default {
   }
   .list .bg-blue {
     background: #020c13;
+  }
+  .list .bg-yellow {
+    background: rgb(242, 255, 0);
   }
 </style>
