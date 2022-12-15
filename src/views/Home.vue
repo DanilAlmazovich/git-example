@@ -28,6 +28,12 @@ export default {
       type: 'mentor',
       color: 'red'
     })
+    this.people.push({
+      name: 'Anton',
+      type: 'student',
+      color: 'mediumaquamarine'
+    })
+    
     //здесь будете пушить свои данные
   }
 }
@@ -58,5 +64,8 @@ export default {
   }
   .list .bg-red {
     background: #fd0d0d;
+  }
+  .list .bg-mediumaquamarine {
+    background: mediumaquamarine;
   }
 </style>
