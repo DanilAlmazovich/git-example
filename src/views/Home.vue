@@ -65,6 +65,6 @@ export default {
     background: #fd0d0d;
   }
   .list .bg-black {
-    background: #000000;
+    background: #0d69b0;
   }
 </style>
