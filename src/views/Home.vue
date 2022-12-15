@@ -29,6 +29,27 @@ export default {
       color: 'yellow'
       
     })
+    this.people.push({
+      name: 'John',
+      type: 'mentor',
+      color: 'red'
+    })
+    this.people.push({
+      name: 'Nikita',
+      type: 'student',
+      color: 'orange'
+    })
+    this.people.push({
+      name: 'Bekjan',
+      type: 'student scientist',
+      color: 'mediumblue'
+    })
+    this.people.push({
+      name: 'Anton',
+      type: 'student',
+      color: 'mediumaquamarine'
+    })
+    
     //здесь будете пушить свои данные
   }
 }
@@ -61,4 +82,18 @@ export default {
     background: #ffa200;
   }
   
+  .list .bg-red {
+    background: #fd0d0d;
+  }
+  .list .bg-orange {
+    background: orange;
+  }
+  .list .bg-mediumblue{
+    background: mediumblue;
+    color: gold;
+    font-size: 40px;
+  }
+  .list .bg-mediumaquamarine {
+    background: mediumaquamarine;
+  }
 </style>
