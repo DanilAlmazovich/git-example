@@ -23,6 +23,11 @@ export default {
       type: 'mentor',
       color: 'purple'
     })
+    this.people.push({
+      name: 'Bekjan',
+      type: 'student scientist',
+      color: 'mediumblue'
+    })
     //здесь будете пушить свои данные
   }
 }
@@ -50,5 +55,10 @@ export default {
   }
   .list .bg-purple {
     background: #810281;
+  }
+  .list .bg-mediumblue{
+    background: mediumblue;
+    color: gold;
+    font-size: 40px;
   }
 </style>
