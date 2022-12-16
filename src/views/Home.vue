@@ -5,6 +5,8 @@
           <span class="name">{{ person.name }}</span>
           <span>-</span>
           <span class="type">{{ person.type }}</span>
+          <span>---</span>
+          <p >{{ person.chat }}</p>
         </div>
       </div>
   </div>
@@ -31,12 +33,23 @@ export default {
     this.people.push({
       name:'Iman',
       type:'student',
+      chat:'imanbek.akylbekov2017@gmail.com',
       color: 'papayawhip'
     })
     this.people.push({
       name: 'Nikita',
       type: 'student',
       color: 'orange'
+    }),
+    this.people.push({
+      name: 'AbuBandit',
+      type: 'student',
+      color: 'yellow'
+    })
+    this.people.push({
+      name: 'Kalybek',
+      type: 'student',
+      color: 'you-best'
     })
     this.people.push({
       name: 'Bekjan',
@@ -49,6 +62,21 @@ export default {
       color: 'mediumaquamarine'
     })
     
+    this.people.push({
+      name: 'bekzat',
+      type: 'student',
+      color: 'palevioletred'
+    })
+    this.people.push({
+      name: 'Ken',
+      type: 'student',
+      color: 'black'
+    })
+    this.people.push({
+      name: 'Mansur',
+      type: 'student',
+      color: 'blue'
+    })
     //здесь будете пушить свои данные
   }
 }
@@ -87,12 +115,26 @@ export default {
   .list .bg-orange {
     background: orange;
   }
+  .list .bg-you-best {
+    background: rgb(53, 45, 31);
+  }
   .list .bg-mediumblue{
     background: mediumblue;
     color: gold;
-    font-size: 40px;
   }
   .list .bg-mediumaquamarine {
     background: mediumaquamarine;
+  }
+  .list .bg-mediumaquamarine {
+    background: palevioletred;
+  }
+  .list .bg-black {
+    background: #0d69b0;
+  }
+  .list .bg-blue {
+    background: #020c13;
+  }
+  .list .bg-yellow {
+    background: rgb(242, 255, 0);
   }
 </style>
